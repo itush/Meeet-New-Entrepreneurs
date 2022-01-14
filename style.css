@@ -34,6 +34,10 @@
         font-weight: 700;
         padding: 1em;
     }
+    button:hover{
+        cursor: pointer;
+        box-shadow: 1px 5px 10px 5px #c4f3e8;
+    }
     header{
         margin: 2.5em 10em 4em 10em;
     }
