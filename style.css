@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+        
+    body{
+    font-family: 'Inter', sans-serif;
+    background: #053142;   
+    background-image: url('./Assets/User\ Avatar\ 1.svg'), 
+                        url('./Assets/User\ Avatar\ 2.svg'),
+                        url('./Assets/User\ Avatar\ 3.svg'),
+                        url('./Assets/User\ Avatar\ 4.svg'),
+                        url('./Assets/User\ Avatar\ 5.svg');
+                       
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat; 
+    ;
+    background-position: 84% 42%, 85% 10%, 4% 15%, 70% 85%, 68% 14%;
+
+    }
+    h1{
+        color: #31f0c5;
+        font-size: 8em;
+    }
+    button{
+        background: #31f0c5;
+        color: #053142;
+        border: none;
+        outline: none;
+        border-radius: .5em;
+        font-size: 1em;
+        font-weight: 700;
+        padding: 1em;
+    }
+    header{
+        margin: 2.5em 10em 4em 10em;
+    }
+    main{
+        margin: 0em 10em;
+    }
+    main p{
+        color: lightgray;
+        margin: 2em 45em 2em 0em;
+        font-weight: 700;
+       
+    }
+    #ftr{
+        display: flex;
+        margin: 10em 0em 2.5em 0em;
+        color: lightgray;
+        align-items: center;
+    }
+    #ftr p{
+        font-weight: 400;
+        margin: 0em 0em 0em .5em;
+    }
+    #credits{
+        background: white;
+        font-size: xx-small;
+        color: black;
+        width: 100%;
+        text-align: center;
+    }
+     
+    @media screen and (max-width: 600px) {
+
+        body{      
+            background-image: url(''), 
+            url('./Assets/User\ Avatar\ 2.svg'),
+            url('./Assets/User\ Avatar\ 3.svg'),
+            url('./Assets/User\ Avatar\ 1.svg'),
+            url('');
+
+        background-position: 0% 0%, 92% 22%, 15% 17%, 95% 70%, 0% 0%;
+        }
+        header{
+            margin: 2.5em;
+        }
+        h1{
+            font-size: 3em;           
+        }
+        main{
+            margin: 10em 2.5em 0em 2.5em;
+        }
+        main p{margin: 2em 0em;}
+        button{
+            width: 80%;
+        }
+        footer{
+            margin: 5em 0em 0em 0em;
+        }
+
+
+    }
